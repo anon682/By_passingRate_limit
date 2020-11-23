@@ -1,0 +1,16 @@
+Header injection:
+X-Forwarded-For : IP
+X-Forwarded-Host : IP
+X-Client-IP : IP
+X-Remote-IP : IP
+X-Remote-Addr : IP
+X-Host : IP
+Change the IP whenever the Request gets Blocked Again.
+
+
+
+Bypassing Rate Limit with some Characters
+
+Adding Null Byte ( %00 ) at the end of the Email can sometimes Bypass Rate Limit.
+Try adding a Space Character after a Email. ( Not Encoded )
+Some Common Characters that help bypassing Rate Limit : %0d , %2e , %09 , %20
